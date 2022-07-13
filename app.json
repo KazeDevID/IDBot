@@ -1,0 +1,34 @@
+{
+    "name": "IDBot",
+    "description": "A simple Info telegram bot",
+    "repository": "https://github.com/KazeDevID/IDBot",
+    "keywords": [
+        "telegram",
+        "pyrogram",
+        "info",
+        "bot"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+            "value": "Your BoT Token"
+        },
+        "SUPPORT_CHAT": {
+            "description": "Your CHAT Username Without @"
+            "value": "NothingSupportBot"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps"
+            "value": "Api ID"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+            "value": "Api Hash"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
