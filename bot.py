@@ -5,9 +5,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Info Bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("BOT_TOKEN", "6872191273:AAEcPm5p0pz8y017ohv4IJ9hYam8KgNmtlE"),
+    api_id=int(os.environ.get("API_ID", "11409845")),
+    api_hash=os.environ.get("API_HASH", "76552be60c1cd08d4c0bac74cc4ab5ff")
 )
 
 START_TEXT = """<b>Hello {}
@@ -20,7 +20,7 @@ HELP_TEXT = """💞 How to Use Me KazeDevID
 • Use /mhinfo Command to take your Details
 • Use /mhid in Group or Channel to get Unique Telegram ID"""
 
-ABOUT_TEXT = """--**About You From KZInfoBot**--
+ABOUT_TEXT = """--**About You From YourInfoR0Bot**--
 - **Bot :** `Info Bot`
 - **Creator :** [KazeDevID](https://t.me/KenalSayaaa)
 - **Deploy OwN :** [Tutorial]()
